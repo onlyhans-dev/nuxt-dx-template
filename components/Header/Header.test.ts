@@ -6,12 +6,10 @@ describe('Header', () => {
   it('mount component with h1 in slot', () => {
     const wrapper = mount(Header, {
       slots: {
-        default: `
-        <h1>Test header</h1>
-        `
+        default: 'Test header'
       }
     })
-    expect(wrapper.html()).toContain('h1>Test header</h1>')
+
     expect(wrapper.text()).toContain('Test header')
     expect(wrapper.find('h1').exists()).toBe(true)
   })

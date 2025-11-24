@@ -1,3 +1,4 @@
 <template>
-  <Header>test</Header>
+  <Header>Example header</Header>
+  <NuxtWelcome />
 </template>
