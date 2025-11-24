@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     '@nuxt/test-utils',
     '@nuxt/hints',
     '@nuxt/image',
-    '@nuxt/ui'
+    '@nuxt/ui',
+    '@nuxtjs/storybook'
   ]
 })
