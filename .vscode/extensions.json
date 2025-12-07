@@ -3,7 +3,7 @@
     "dbaeumer.vscode-eslint",
     "nuxtr.nuxt-vscode-extentions",
     "vitest.explorer",
-    "kingwl.vscode-vitest-runner"
+    "kingwl.vscode-vitest-runner",
+    "bradlc.vscode-tailwindcss"
   ]
 }
-
