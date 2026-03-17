@@ -6,7 +6,10 @@
       "request": "launch",
       "name": "Nuxt: Dev (npm run dev)",
       "runtimeExecutable": "npm",
-      "runtimeArgs": ["run", "dev"],
+      "runtimeArgs": [
+        "run",
+        "dev"
+      ],
       "console": "integratedTerminal",
       "internalConsoleOptions": "neverOpen",
       "envFile": "${workspaceFolder}/.env",
@@ -14,7 +17,9 @@
         "EDITOR": "code",
         "VISUAL": "code"
       },
-      "skipFiles": ["<node_internals>/**"],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
       "restart": true,
       "timeout": 60000
     },
@@ -24,8 +29,9 @@
       "name": "Nuxt: Attach to Dev Server",
       "port": 9229,
       "restart": true,
-      "skipFiles": ["<node_internals>/**"]
+      "skipFiles": [
+        "<node_internals>/**"
+      ]
     }
   ]
 }
-
